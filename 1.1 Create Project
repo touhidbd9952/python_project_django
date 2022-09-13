@@ -17,6 +17,8 @@ To install Django, you must use a package manager like PIP, which is included in
 //////3. activate the environment//////////////////////////////////////////////////////////////////
 
     myproject\Scripts\activate.bat
+    
+    Note: You must activate the virtual environment every time to work on your project by open the command prompt and type above code.
 
 ////////3. Install Django//////////////////////////////////////////////////////////////////////////
 

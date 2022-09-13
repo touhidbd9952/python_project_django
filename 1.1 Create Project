@@ -52,7 +52,7 @@ To install Django, you must use a package manager like PIP, which is included in
             wsgi.py
   
  /////////Run the Django Project////////////////////////////////////////
- 
+      cd myworld (enter)
       py manage.py runserver 
  
  

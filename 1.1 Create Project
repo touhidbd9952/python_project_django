@@ -32,13 +32,19 @@ To install Django, you must use a package manager like PIP, which is included in
     
 
 //////Django Create Project/////////////////////////////////////
-1. Open command prompt
-2. Type below line
+1. Open project directory
+2. cmd (command prompt)
+3. Type below line
 
   django-admin startproject myworld
   
   
-  /////////////////////////////////////////
+ /////////Run Django Project////////////////////////////////////////
+      cd myworld (enter)
+      py manage.py runserver   //to run 
+ 
+ 
+ /////////////////////////////////////////
   
   Django creates a myworld folder on my computer, with this content:
 
@@ -50,10 +56,3 @@ To install Django, you must use a package manager like PIP, which is included in
             settings.py
             urls.py
             wsgi.py
-  
- /////////Run the Django Project////////////////////////////////////////
-      cd myworld (enter)
-      py manage.py runserver 
- 
- 
- 

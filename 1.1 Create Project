@@ -1,0 +1,57 @@
+//////1. Django Package Installation/////////////////////////////////////////////////////////
+To install Django, you must use a package manager like PIP, which is included in Python from version 3.4.
+
+    pip --version   //check pip version install or not
+    
+    ////if install, you will get below output//////
+    pip 20.2.3 from c:\python39\lib\site-packages\pip (python 3.9) 
+    
+    ////If you do not have PIP installed///////////
+    you can download and install it from this page: https://pypi.org/project/pip/
+    
+
+//////2. Create Virtual Environment/////////////////////////////////////////////////////////////////
+    
+    py -m venv myproject
+    
+//////3. activate the environment//////////////////////////////////////////////////////////////////
+
+    myproject\Scripts\activate.bat
+
+////////3. Install Django//////////////////////////////////////////////////////////////////////////
+
+    (myproject) C:\Users\Your Name>py -m pip install Django
+
+////////4. Check Django Version///////////////////////////////////////////////////////////////////
+
+    (myproject) C:\Users\Your Name>django-admin --version
+    
+    
+    
+
+//////Django Create Project/////////////////////////////////////
+1. Open command prompt
+2. Type below line
+
+  django-admin startproject myworld
+  
+  
+  /////////////////////////////////////////
+  
+  Django creates a myworld folder on my computer, with this content:
+
+      myworld
+        manage.py
+        myworld/
+            __init__.py
+            asgi.py
+            settings.py
+            urls.py
+            wsgi.py
+  
+ /////////Run the Django Project////////////////////////////////////////
+ 
+      py manage.py runserver 
+ 
+ 
+ 

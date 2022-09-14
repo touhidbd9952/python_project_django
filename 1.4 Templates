@@ -1,0 +1,11 @@
+//////Templates////////////////////////////////////////
+Create a "templates" folder inside the "members" folder, and create a HTML file named "myfirst.html"
+
+myworld
+    manage.py
+    myworld/
+    members/
+        templates/
+            myfirst.html
+
+

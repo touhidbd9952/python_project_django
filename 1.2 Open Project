@@ -1,0 +1,8 @@
+/////To open an existing project we need to do below task////////////////////////
+1. Go to Project Directory (D:\Study Topics\Python\Python Project)
+2. cmd
+3. Active virtual Environment:
+    venvmyproject\Scripts\activate.bat 
+4. cd yourproject
+5. run project:
+    py manage.py runserver

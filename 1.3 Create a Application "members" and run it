@@ -1,0 +1,43 @@
+/////Create Module////////////////////////////////////////////////////////////
+  py manage.py startapp members
+  
+  ///go to members/views.py and write below code
+  
+      from django.shortcuts import render
+      from django.http import HttpResponse
+
+      def index(request):                               //public function index(request){ return HttpResponse("Hello world!");}
+          return HttpResponse("Hello world!")
+
+/////Routing/////////////////////////////////////////////////////////////////
+1. internal routing
+2. external routing
+
+go to "members" folder 
+  ///Create a file name "urls.py" in "members" folder for internal routing/sub route
+  
+  in "urls.py"
+  ------------
+  
+  from django.urls import path
+  from . import views
+
+  urlpatterns = [
+      path('', views.index, name='index'),
+  ]
+
+
+  ///Open external "urls.py" route file (Main route file)/////
+  
+  from django.contrib import admin
+  from django.urls import include, path
+
+  urlpatterns = [
+      path('members/', include('members.urls')),
+      path('admin/', admin.site.urls),
+  ] 
+
+
+/////////View output in Browser//////////////////////////////////////////////////
+  127.0.0.1:8000/members/
+  

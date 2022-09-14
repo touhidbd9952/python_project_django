@@ -1,5 +1,19 @@
 /////Create Application////////////////////////////////////////////////////////////
   py manage.py startapp members
+  ------------------------------------------------------------------------
+  myworld
+    manage.py
+    myworld/
+    members/
+        migrations/
+            __init__.py
+        __init__.py
+        admin.py
+        apps.py
+        models.py
+        tests.py
+        views.py
+   ---------------------------------------------------------------------   
   
   ///go to "members" folder --> "views.py" and write below code
   

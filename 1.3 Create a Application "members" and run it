@@ -1,7 +1,7 @@
-/////Create Module////////////////////////////////////////////////////////////
+/////Create Application////////////////////////////////////////////////////////////
   py manage.py startapp members
   
-  ///go to members/views.py and write below code
+  ///go to "members" folder --> "views.py" and write below code
   
       from django.shortcuts import render
       from django.http import HttpResponse
